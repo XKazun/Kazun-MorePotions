@@ -1,0 +1,23 @@
+items.Potion_Fire_Resistance_Lesser.name= Lesser Fire Ressistance Potion
+items.Potion_Fire_Resistance_Lesser.description= When consumed, grants Fire Resistance for a 4 minutes, thats protect you from fire. <i>\n\nAdded by Kazun - More Potions.</i>
+
+items.Potion_Fire_Resistance_Greater.name= Greater Fire Ressistance Potion
+items.Potion_Fire_Resistance_Greater.description= When consumed, grants Fire Resistance for a 8 minutes, thats protect you from fire. <i>\n\nAdded by Kazun - More Potions.</i>
+
+items.Potion_Health_Boost_Lesser.name= Lesser Health Boost Potion
+items.Potion_Health_Boost_Lesser.description= When consumed, grants Health Boost for a 4 minutes, thats increase max health by 50. <i>\n\nAdded by Kazun - More Potions.</i>
+
+items.Potion_Health_Boost_Greater.name= Greater Health Boost Potion
+items.Potion_Health_Boost_Greater.description= When consumed, grants Health Boost for a 8 minutes, thats increase max health by 75. <i>\n\nAdded by Kazun - More Potions.</i>
+
+items.Potion_Stamina_Boost_Lesser.name= Lesser Stamina Boost Potion
+items.Potion_Stamina_Boost_Lesser.description= When consumed, grants Stamina Boost for a 4 minutes, thats increase max stamina by 5. <i>\n\nAdded by Kazun - More Potions.</i>
+
+items.Potion_Stamina_Boost_Greater.name= Greater Stamina Boost Potion
+items.Potion_Stamina_Boost_Greater.description= When consumed, grants Stamina Boost for a 8 minutes, thats increase max stamina by 10. <i>\n\nAdded by Kazun - More Potions.</i>
+
+items.Potion_Resistance_Lesser.name= Lesser Resistance Potion
+items.Potion_Resistance_Lesser.description= When consumed, grants Resistance for a 4 minutes, thats resists physical attacks by 20%. <i>\n\nAdded by Kazun - More Potions.</i>
+
+items.Potion_Resistance_Greater.name= Greater Resistance Potion
+items.Potion_Resistance_Greater.description= When consumed, grants Resistance for a 8 minutes, thats resists physical attacks by 40%. <i>\n\nAdded by Kazun - More Potions.</i>

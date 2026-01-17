@@ -1,0 +1,15 @@
+{
+  "OverlapBehavior": "Overwrite",
+  "StatusEffectIcon": "UI/StatusEffects/Resistance/Resistance_Greater.png",
+  "Duration": 480,
+  "Infinite": false,
+  "Debuff": false,
+  "DamageResistance": {
+    "Physical": [
+      {
+        "CalculationType": "Multiplicative",
+        "Amount": 0.4
+      }
+    ]
+  }
+}

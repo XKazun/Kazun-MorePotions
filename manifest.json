@@ -1,0 +1,20 @@
+{
+  "Group": "Kazun",
+  "Name": "[Kazun's] More Potions",
+  "Version": "0.0.1",
+  "Description": "A pack that adds new potions to the game to help with combat and world exploration.",
+  "Authors": [
+    {
+      "Name": "Kazun",
+      "Email": "",
+      "Url": ""
+    }
+  ],
+  "Website": "https://curseforge.com/hytale/mods/kazuns-more-potions",
+  "Dependencies": {},
+  "OptionalDependencies": {},
+  "LoadBefore": {},
+  "DisabledByDefault": false,
+  "IncludesAssetPack": false,
+  "SubPlugins": []
+}

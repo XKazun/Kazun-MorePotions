@@ -1,0 +1,18 @@
+{
+  "OverlapBehavior": "Overwrite",
+  "StatusEffectIcon": "UI/StatusEffects/HealthBoost/Health_Boost_Greater.png",
+  "Duration": 480,
+  "Infinite": false,
+  "Debuff": false,
+  "RawStatModifiers": {
+    "Health": [
+      {
+        "CalculationType": "Additive",
+        "Amount": 75
+      }
+    ]
+  },
+  "StatModifiers": {
+    "Health": 75
+  }
+}

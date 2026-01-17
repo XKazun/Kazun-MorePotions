@@ -1,0 +1,76 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.Fluid_Lava.name"
+  },
+  "Icon": "Icons/ItemsGenerated/Fluid_Lava.png",
+  "Categories": [
+    "Blocks.Fluids"
+  ],
+  "Interactions": {
+    "Secondary": {
+      "Interactions": [
+        {
+          "Type": "PlaceFluid",
+          "FluidToPlace": "Lava_Source"
+        }
+      ]
+    }
+  },
+  "BlockType": {
+    "Material": "Solid",
+    "DrawType": "Cube",
+    "Effect": [
+      "Lava"
+    ],
+    "Opacity": "Transparent",
+    "DamageToEntities": 13,
+    "Group": "Lava",
+    "Light": {
+      "Color": "#e90"
+    },
+    "Flags": {},
+    "BlockParticleSetId": "Lava",
+    "Textures": [
+      {
+        "Weight": 1,
+        "All": "BlockTextures/Fluid_Lava.png"
+      }
+    ],
+    "ParticleColor": "#f94e11",
+    "CubeShadingMode": "Fullbright",
+    "BlockSoundSetId": "Empty",
+    "Interactions": {
+      "Collision": {
+        "Cooldown": {
+          "Id": "BurnEffect",
+          "Cooldown": 1
+        },
+        "Interactions": [
+          {
+            "Type": "Condition",
+            "RequiredGameMode": "Adventure",
+            "Next": {
+              "Type": "EffectCondition",
+              "Match": "None",
+              "EntityEffectIds": [
+                "Fire_Resistance",
+                "Fire_Resistance_Greater"
+              ],
+              "Next": {
+                "Type": "ApplyEffect",
+                "EffectId": "Burn"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "PlayerAnimationsId": "Block",
+  "Tags": {
+    "Material": [
+      "Fluid"
+    ]
+  },
+  "MaxStack": 1
+}

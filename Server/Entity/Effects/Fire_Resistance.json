@@ -1,0 +1,15 @@
+{
+  "OverlapBehavior": "Overwrite",
+  "StatusEffectIcon": "UI/StatusEffects/FireResistance/Fire_Resistance_Lesser.png",
+  "Duration": 240,
+  "DamageResistance": {
+    "Fire": [
+      {
+        "Amount": 100,
+        "CalculationType": "Additive"
+      }
+    ]
+  },
+  "Infinite": false,
+  "Debuff": false
+}

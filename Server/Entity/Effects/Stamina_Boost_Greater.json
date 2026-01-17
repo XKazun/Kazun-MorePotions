@@ -1,0 +1,15 @@
+{
+  "OverlapBehavior": "Overwrite",
+  "StatusEffectIcon": "UI/StatusEffects/Stamina/Small.png",
+  "Duration": 480,
+  "Infinite": false,
+  "Debuff": false,
+  "RawStatModifiers": {
+    "Stamina": [
+      {
+        "CalculationType": "Additive",
+        "Amount": 10
+      }
+    ]
+  }
+}
